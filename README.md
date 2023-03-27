@@ -1,4 +1,4 @@
-# Superhero Tracker API
+﻿# Superhero Tracker API
 The Superhero Tracker API is a Rails-based API that allows you to track superheroes and their superpowers. It includes three main resources: Hero, Power, and HeroPower. The API provides endpoints for managing these resources, including routes for creating, reading, updating, and deleting data.
 
 ## Getting Started
@@ -7,6 +7,21 @@ Before you can use the Superhero Tracker API, you'll need to have the following 
 - Ruby 2.7.4 or higher
 - Rails 6.1.4 or higher
 - PostgreSQL 13.4 or higher
+
+## Features
+- Get list of Superheroes
+> `GET /heroes`
+- Get list of powers
+> `GET /powers`
+- Get a specific hero
+> `GET /heroes/:id`
+- Get a specific power
+> `GET /powers/:id`
+- Create a new hero's power
+> `POST /hero_powers`
+- Change a power
+> `PATCH /powers/:id`
+
 ## Installation
 To install the Superhero Tracker API, follow these steps:
 1. Clone the repository:
